@@ -1,5 +1,13 @@
 # Disparo de mensagens B2BFLOW
-
+## Acesso Supabase:
+Login:
+```
+guilherme.gadssilva@gmail.com
+```
+Senha:
+```
+B2bflow123*
+```
 ## ✅ Requisitos
 
 - Python **3.x**
