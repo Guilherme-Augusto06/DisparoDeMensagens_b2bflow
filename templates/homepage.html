@@ -3,9 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B2bflow Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')
+    }}"
   </head>
   <body>
-    <h1>Teste</h1>
+    <div class="container">
+      <div class="mensagem-box">
+        <h2 class="mensagem-title">Executar disparo de mensagens</h2>
+        <button onclick="enviarMensagem()" class="btn-enviar">Enviar</button>
+        <p id="mensagem-status" class="mensagem-status"></p>
+      </div>
+
+      <div class="section1">
+        <h1 class="title">B2BFLOW</h1>
+        <h1 class="year">2025</h1>
+      </div>
+
+      <div class="section2">
+        <h1 class="subtitle">Disparo de Mensagens</h1>
+      </div>
+
+      <div class="img">
+        <img
+          src="{{ url_for('static', filename='images/logo.png') }}"
+          alt="Logo"
+          class="logo"
+        />
+      </div>
+    </div>
+
+    <script>
+      function enviarMensagem() {
+        fetch("/disparar")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("mensagem-status").textContent =
+              "Mensagens enviadas com sucesso!";
+          })
+          .catch((error) => {
+            document.getElementById("mensagem-status").textContent =
+              "Erro ao enviar mensagens.";
+          });
+      }
+    </script>
   </body>
 </html>

@@ -1,0 +1,106 @@
+html {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #806ffb 0%, #624dfb 50%, #806ffb 100%);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section1 {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.year {
+  font-weight: 400;
+  color: #d0caff;
+  margin: 0;
+}
+
+.section2 {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  margin: 0;
+}
+
+.img {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.img img {
+  width: 300px;
+  height: auto;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.mensagem-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mensagem-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.btn-enviar {
+  background-color: #806ffb;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #6a5fe0;
+}
