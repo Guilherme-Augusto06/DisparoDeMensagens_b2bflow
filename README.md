@@ -8,6 +8,18 @@ Senha:
 ```
 B2bflow123*
 ```
+
+## Acesso Z-API:
+Login:
+```
+guilherme.gadssilva@gmail.com
+```
+Senha:
+```
+B2bflow123*
+```
+
+## Acesso Supabase:
 ## ✅ Requisitos
 
 - Python **3.x**
