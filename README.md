@@ -1,5 +1,5 @@
 # Disparo de mensagens B2BFLOW
-## Acesso Supabase:
+## 🔒 Acesso Supabase:
 Login:
 ```
 guilherme.gadssilva@gmail.com
@@ -9,7 +9,7 @@ Senha:
 B2bflow123*
 ```
 
-## Acesso Z-API:
+## 🔒 Acesso Z-API:
 Login:
 ```
 guilherme.gadssilva@gmail.com
